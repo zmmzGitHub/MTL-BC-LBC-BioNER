@@ -5,7 +5,9 @@ The code is written in Python 3.5. Its dependencies is summarized in ```requirem
 # Usage
 ```train_shuffle_sep.py``` is to train multi-task models on datasets for biomedical named entity recognition (Bio-NER).
 ```train_shuffle_pos.py``` is to train multi-task models on Bio-NER and POS (part-of-speech) tagging datasets.
+
 The usages of two scripts can be accessed by
+
 ```
 python train_shuffle_sep.py -h
 python train_shuffle_pos.py -h
@@ -36,5 +38,5 @@ python3 train_shuffle_pos.py --train_file [training bio-ner file 1] ... [trainin
 
 Users may incorporate an arbitrary number of corpora into the training process.
 ## Note
-We merge training and development sets before run these two scripts. For ```train_shuffle_pos.py```, the path of POS dataset is set behind all Bio-NER datasets. 
+We merge training and development sets before running these two scripts. For ```train_shuffle_pos.py```, the path of POS dataset is set behind all Bio-NER datasets. 
 
