@@ -12,8 +12,8 @@ import itertools
 import sys
 from tqdm import tqdm
 
-from crf import CRFDecode_vb
-from utils import *
+from models.crf import CRFDecode_vb
+from models.utils import *
 
 class predict:
     """Base class for prediction, provide method to calculate f1 score and accuracy 
