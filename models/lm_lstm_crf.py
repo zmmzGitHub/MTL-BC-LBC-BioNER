@@ -10,9 +10,10 @@ import torch.autograd as autograd
 import torch.nn as nn
 import torch.optim as optim
 import numpy as np
-import crf as crf
-import utils as utils
-import highway as highway
+
+import models.crf as crf
+import models.utils as utils
+import models.highway as highway
 
 class LM_LSTM_CRF(nn.Module):
     """LM_LSTM_CRF model with separate CRFs and unified label set
