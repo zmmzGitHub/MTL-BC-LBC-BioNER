@@ -9,11 +9,10 @@
 import torch
 import numpy as np
 import itertools
-
-import utils as utils
 from torch.autograd import Variable
 
-from crf import CRFDecode_vb
+import models.utils as utils
+from models.crf import CRFDecode_vb
 
 class eval_batch:
     """Base class for evaluation, provide method to calculate f1 score and accuracy 
