@@ -7,7 +7,8 @@
 
 import torch
 import torch.nn as nn
-import utils as utils
+
+import models.utils as utils
 
 class hw(nn.Module):
     """Highway layers
