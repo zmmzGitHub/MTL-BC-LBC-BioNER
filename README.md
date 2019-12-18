@@ -1,2 +1,2 @@
 # MTL-BC-LBC-BioNER
-Multi-task learning approches for Bio-NER
+Two multi-task learning approches for Bio-NER
