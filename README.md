@@ -1,7 +1,7 @@
 # MTL-BC-LBC-BioNER
 Two multi-task learning approches for Bio-NER
 # Dependencies and References
-The code is written in Python 3.5. Its dependencies is summarized in ```requirements.txt``` file
+The code is written in Python 3.5. Its dependencies is summarized in ```requirements.txt``` file <br>
 We adapt some code from: <br>
 https://github.com/LiyuanLucasLiu/LM-LSTM-CRF <br>
 https://github.com/yuzhimanhua/lm-lstm-crf  <br>
