@@ -1,7 +1,10 @@
 # MTL-BC-LBC-BioNER
 Two multi-task learning approches for Bio-NER
-# Dependencies
+# Dependencies and References
 The code is written in Python 3.5. Its dependencies is summarized in ```requirements.txt``` file
+We adapt some code from: <br>
+https://github.com/LiyuanLucasLiu/LM-LSTM-CRF <br>
+https://github.com/yuzhimanhua/lm-lstm-crf  <br>
 # Usage
 ```train_shuffle_sep.py``` is to train multi-task models on datasets for biomedical named entity recognition (Bio-NER).
 ```train_shuffle_pos.py``` is to train multi-task models on Bio-NER and POS (part-of-speech) tagging datasets.
